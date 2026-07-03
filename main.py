@@ -5,10 +5,12 @@ import json
 import os
 import re
 import string
-import requests
 from urllib.parse import urlparse
 from unicodedata import normalize
+
+import requests
 from bs4 import BeautifulSoup, SoupStrainer
+
 from lib.banner import WriteBanner
 
 
