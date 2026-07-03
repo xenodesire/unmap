@@ -5,9 +5,9 @@ import json
 import os
 import re
 import string
-from lib.banner import WriteBanner
 from urllib.parse import urlparse
 from unicodedata import normalize
+from lib.banner import WriteBanner
 
 import requests
 from bs4 import BeautifulSoup, SoupStrainer
